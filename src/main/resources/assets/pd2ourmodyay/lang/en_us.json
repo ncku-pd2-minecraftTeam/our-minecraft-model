@@ -1,7 +1,16 @@
 {
-    "_comment": "==================Creative Tabs==================",
-    "itemGroup.pd2ourmodyay.items": "TESTING_TABS",
+  "_comment": "==================Creative Tabs==================",
+  "itemGroup.pd2ourmodyay.items": "TESTING_TABS",
 
-    "_comment": "================== ITEM ==================",
-    "item.pd2ourmodyay.testitem": "testitem"
+  "_comment": "================== ITEM ==================",
+  "item.pd2ourmodyay.testitem": "testitem",
+  "item.pd2ourmodyay.silver_ingot": "Silver Ingot",
+  "item.pd2ourmodyay.silver_pickaxe": "Silver Pickaxe",
+  "item.pd2ourmodyay.silver_shovel": "Silver Shovel",
+  "item.pd2ourmodyay.silver_sword": "Silver Sword",
+  "item.pd2ourmodyay.silver_hoe": "Silver Hoe",
+  "item.pd2ourmodyay.silver_axe": "Silver Axe",
+  "item.pd2ourmodyay.magic_silver": "Magic Silver",
+  "item.pd2ourmodyay.magic_fruit": "Magic Fruit",
+  "item.pd2ourmodyay.magic_slime": "Magic Slime"
 }
