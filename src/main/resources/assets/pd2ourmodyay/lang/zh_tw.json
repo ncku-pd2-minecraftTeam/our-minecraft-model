@@ -3,5 +3,21 @@
     "itemGroup.pd2ourmodyay.items": "測試欄位",
 
     "_comment": "================== ITEM ==================",
-    "item.pd2ourmodyay.testitem": "測試物品"
+    "item.pd2ourmodyay.testitem": "測試物品",
+    "item.pd2ourmodyay.silver_ingot": "銀錠",
+    "item.pd2ourmodyay.silver_pickaxe": "銀稿",
+    "item.pd2ourmodyay.silver_shovel": "銀鏟",
+    "item.pd2ourmodyay.silver_sword": "銀劍",
+    "item.pd2ourmodyay.silver_hoe": "銀鋤",
+    "item.pd2ourmodyay.silver_axe": "銀斧",
+    "item.pd2ourmodyay.magic_silver": "秘銀",
+    "item.pd2ourmodyay.magic_fruit": "魔法果實",
+    "item.pd2ourmodyay.magic_slime": "魔法黏液",
+    "_comment": "=======================BLOCK======================",
+    "block.pd2ourmodyay.testblock" : "測試方塊",
+    "block.pd2ourmodyay.silver_ore" : "銀原礦",
+    "block.pd2ourmodyay.silver_block" : "銀方塊",
+    "block.pd2ourmodyay.and_gate" : "AND閘",
+    "block.pd2ourmodyay.nand_gate" : "NAND閘",
+    "block.pd2ourmodyay.xor_gate" : "XOR閘"
 }
