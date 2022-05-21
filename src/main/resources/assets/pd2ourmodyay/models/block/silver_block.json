@@ -1,0 +1,30 @@
+{
+  "parent": "block/block",
+  "textures":{
+    "particle": "pd2ourmodyay:block/silver_block",
+    "top": "pd2ourmodyay:block/silver_block",
+    "bottom": "pd2ourmodyay:block/silver_block",
+    "bottomfront": "pd2ourmodyay:block/silver_block"
+  },
+  "elements": [{
+    "from": [3, 4, 3],
+    "to": [13, 16, 13],
+    "faces": {
+      "up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+      "north": {"uv": [0, 0, 16, 16], "texture": "#top"},
+      "east": {"uv": [0, 0, 16, 16], "texture": "#top"},
+      "west": {"uv": [0, 0, 16, 16], "texture": "#top"},
+      "south": {"uv"  : [0, 0, 16, 16], "texture": "#top"}
+    }
+  },{
+    "from": [3, 0, 3],
+    "to": [13, 4, 13],
+    "faces": {
+      "up": {"uv": [0, 0, 16, 16], "texture": "#bottom"},
+      "down": {"uv": [0, 0, 16, 16], "texture": "#bottom"},
+      "north": {"uv": [0, 0, 16, 16], "texture": "#bottomfront"},
+      "east": {"uv": [0, 0, 16, 16], "texture": "#bottom"},
+      "west": {"uv": [0, 0, 16, 16], "texture": "#bottom"},
+      "south": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+    }}]
+}

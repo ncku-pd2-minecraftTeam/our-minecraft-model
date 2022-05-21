@@ -12,5 +12,12 @@
   "item.pd2ourmodyay.silver_axe": "Silver Axe",
   "item.pd2ourmodyay.magic_silver": "Magic Silver",
   "item.pd2ourmodyay.magic_fruit": "Magic Fruit",
-  "item.pd2ourmodyay.magic_slime": "Magic Slime"
+  "item.pd2ourmodyay.magic_slime": "Magic Slime",
+  "_comment": "=======================BLOCK======================",
+  "block.pd2ourmodyay.testblock" : "testblock",
+  "block.pd2ourmodyay.silver_ore" : "silver_ore",
+  "block.pd2ourmodyay.silver_block" : "silver_block",
+  "block.pd2ourmodyay.and_gate" : "and_gate",
+  "block.pd2ourmodyay.nand_gate" : "nand_gate",
+  "block.pd2ourmodyay.xor_gate" : "xor_gate"
 }
