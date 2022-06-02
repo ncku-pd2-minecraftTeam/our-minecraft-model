@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "xvx",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "pd2ourmodyay:silver_ingot"
+    },
+    "v": {
+      "item": "pd2ourmodyay:magic_slime"
+    }
+  },
+  "result": {
+    "item": "pd2ourmodyay:magic_silver",
+    "count": 1
+  }
+}

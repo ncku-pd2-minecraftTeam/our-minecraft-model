@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx ",
+    "xo ",
+    " o "
+  ],
+  "key": {
+    "x": {
+      "item": "pd2ourmodyay:silver_ingot"
+    },
+    "o": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "pd2ourmodyay:silver_axe",
+    "count": 1
+  }
+}

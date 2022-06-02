@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x x",
+    "vrv",
+    "sss"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:redstone_torch"
+    },
+    "v": {
+      "item": "pd2ourmodyay:silver_ingot"
+    },
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "s": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "pd2ourmodyay:and_gate",
+    "count": 1
+  }
+}
