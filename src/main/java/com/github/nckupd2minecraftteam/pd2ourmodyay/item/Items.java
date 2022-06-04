@@ -4,6 +4,7 @@ import com.github.nckupd2minecraftteam.pd2ourmodyay.OurModYay;
 
 import com.github.nckupd2minecraftteam.pd2ourmodyay.block.Blocks;
 import net.minecraft.item.*;
+import net.minecraft.util.IItemProvider;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -12,12 +13,15 @@ import net.minecraftforge.registries.ObjectHolder;
 @ObjectHolder(OurModYay.MODID)
 public class Items{
 	public static final Testitem TESTITEM = null;
-	public static final Silver_ingot SILVER_INGOT = null;
+	public static final Item SILVER_INGOT = null;
+	public static final Item RAW_SILVER = null;
     public static final Item SILVER_ORE = null;
     public static final Item SILVER_BLOCK = null;
     public static final Item AND_GATE = null;
     public static final Item NAND_GATE = null;
     public static final Item XOR_GATE = null;
+	public static final Test_animal_egg TEST_ANIMAL_EGG = null;
+	public static final Magic_silver_slime_egg MAGIC_SILVER_SLIME_EGG = null;
     public static DeferredRegister<Item> getRegister(){
         return Items.ItemRegistry.REGISTER;
     }
@@ -53,5 +57,10 @@ public class Items{
         public static final RegistryObject<Item> OBJ_AND_GATE = ItemRegistry.REGISTER.register("and_gate", () -> new BlockItem(Blocks.BlockRegistry.OBJ_AND_GATE.get(), new Item.Properties().group(ItemGroups.ITEM_TAB)));
         public static final RegistryObject<Item> OBJ_NAND_GATE = ItemRegistry.REGISTER.register("nand_gate", () -> new BlockItem(Blocks.BlockRegistry.OBJ_NAND_GATE.get(), new Item.Properties().group(ItemGroups.ITEM_TAB)));
         public static final RegistryObject<Item> OBJ_XOR_GATE = ItemRegistry.REGISTER.register("xor_gate", () -> new BlockItem(Blocks.BlockRegistry.OBJ_XOR_GATE.get(), new Item.Properties().group(ItemGroups.ITEM_TAB)));
+    
+        //entities_egg
+        public static final RegistryObject<Item> OBJ_TEST_ANIMAL_EGG = ItemRegistry.REGISTER.register("test_animal_egg", () -> new Test_animal_egg());
+        public static final RegistryObject<Item> OBJ_MAGIC_SILVER_SLIME_EGG = ItemRegistry.REGISTER.register("magic_silver_slime_egg", () -> new Magic_silver_slime_egg());
+    
     }
 }
