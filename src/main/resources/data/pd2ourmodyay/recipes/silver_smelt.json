@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "pd2ourmodyay:silver_ore"
+
+  },
+  "result": "pd2ourmodyay:silver_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

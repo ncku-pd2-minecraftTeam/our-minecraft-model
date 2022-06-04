@@ -5,6 +5,7 @@
   "_comment": "================== ITEM ==================",
   "item.pd2ourmodyay.testitem": "testitem",
   "item.pd2ourmodyay.silver_ingot": "Silver Ingot",
+  "item.pd2ourmodyay.raw_silver": "Raw Silver",
   "item.pd2ourmodyay.silver_pickaxe": "Silver Pickaxe",
   "item.pd2ourmodyay.silver_shovel": "Silver Shovel",
   "item.pd2ourmodyay.silver_sword": "Silver Sword",
@@ -13,11 +14,13 @@
   "item.pd2ourmodyay.magic_silver": "Magic Silver",
   "item.pd2ourmodyay.magic_fruit": "Magic Fruit",
   "item.pd2ourmodyay.magic_slime": "Magic Slime",
+  "item.pd2ourmodyay.test_animal_egg": "Test Animal Egg",
+  "item.pd2ourmodyay.magic_silver_slime_egg": "Magic Silver Slime Egg",
   "_comment": "=======================BLOCK======================",
-  "block.pd2ourmodyay.testblock" : "testblock",
-  "block.pd2ourmodyay.silver_ore" : "silver_ore",
-  "block.pd2ourmodyay.silver_block" : "silver_block",
-  "block.pd2ourmodyay.and_gate" : "and_gate",
-  "block.pd2ourmodyay.nand_gate" : "nand_gate",
-  "block.pd2ourmodyay.xor_gate" : "xor_gate"
+  "block.pd2ourmodyay.testblock": "testblock",
+  "block.pd2ourmodyay.silver_ore": "Silver Ore",
+  "block.pd2ourmodyay.silver_block": "Silver Block",
+  "block.pd2ourmodyay.and_gate": "And Gate",
+  "block.pd2ourmodyay.nand_gate": "Nand Gate",
+  "block.pd2ourmodyay.xor_gate": "Xor Gate"
 }
