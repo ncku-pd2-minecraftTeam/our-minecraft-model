@@ -1,5 +1,6 @@
 package com.github.nckupd2minecraftteam.pd2ourmodyay.block;
 
+import com.github.nckupd2minecraftteam.pd2ourmodyay.OurModYay;
 import com.github.nckupd2minecraftteam.pd2ourmodyay.item.Items;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -14,13 +15,15 @@ import net.minecraftforge.common.ToolType;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.BiFunction;
 
-public class And_gate extends ComparatorBlock {
-    public And_gate(){
-        super(Properties.create(Material.GLASS)
-                .hardnessAndResistance(0.0f, 6.0f));
+public class And_gate extends Logicgate {
+
+    public And_gate(BiFunction<Boolean, Boolean, Boolean> calculateOutputFunction){
+        super(calculateOutputFunction);
     }
-    // TODO: gate function
+
+
     @Override
     @SuppressWarnings("deprecation")
     public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder){

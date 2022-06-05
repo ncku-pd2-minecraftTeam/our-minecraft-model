@@ -20,7 +20,6 @@ public class Silver_block extends Block {
                 .hardnessAndResistance(5.0f, 6.0f)
                 .harvestTool(ToolType.PICKAXE)
                 .harvestLevel(2)); // Iron pickaxe and above
-                
     }
     @Override
     @SuppressWarnings("deprecation")
