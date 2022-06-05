@@ -22,5 +22,7 @@
   "block.pd2ourmodyay.silver_block": "Silver Block",
   "block.pd2ourmodyay.and_gate": "And Gate",
   "block.pd2ourmodyay.nand_gate": "Nand Gate",
-  "block.pd2ourmodyay.xor_gate": "Xor Gate"
+  "block.pd2ourmodyay.xor_gate": "Xor Gate",
+  "_comment": "=======================POTION======================",
+  "effect.pd2ourmodyay.magic_broom_effect": "Magic Broom"
 }

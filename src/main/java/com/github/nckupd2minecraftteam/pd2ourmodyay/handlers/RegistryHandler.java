@@ -3,6 +3,8 @@ package com.github.nckupd2minecraftteam.pd2ourmodyay.handlers;
 import com.github.nckupd2minecraftteam.pd2ourmodyay.block.Blocks;
 import com.github.nckupd2minecraftteam.pd2ourmodyay.entity.Entities;
 import com.github.nckupd2minecraftteam.pd2ourmodyay.item.Items;
+import com.github.nckupd2minecraftteam.pd2ourmodyay.potion.ModEffects;
+
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
@@ -15,6 +17,8 @@ public class RegistryHandler {
 		Blocks.getRegister().register(RegistryHandler.BUS);
 		// entities register
 		Entities.getRegister().register(RegistryHandler.BUS);
+		// potion register
+		ModEffects.getRegister().register(RegistryHandler.BUS);
 	}
 
 }
