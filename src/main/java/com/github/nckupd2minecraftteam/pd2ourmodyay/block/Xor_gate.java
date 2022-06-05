@@ -12,13 +12,12 @@ import net.minecraft.world.storage.loot.LootTableManager;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.BiFunction;
 
-public class Xor_gate extends ComparatorBlock {
-    public Xor_gate(){
-        super(Properties.create(Material.GLASS)
-                .hardnessAndResistance(0.0f, 6.0f));
+public class Xor_gate extends Logicgate {
+    public Xor_gate(BiFunction<Boolean, Boolean, Boolean> calculateOutputFunction){
+        super(calculateOutputFunction);
     }
-    // TODO: gate function
     @Override
     @SuppressWarnings("deprecation")
     public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder){
