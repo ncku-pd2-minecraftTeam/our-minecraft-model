@@ -48,6 +48,7 @@ public class Items{
         public static final RegistryObject<Item> OBJ_MAGIC_SILVER = ItemRegistry.REGISTER.register("magic_silver", () -> new Magic_silver());
         public static final RegistryObject<Item> OBJ_MAGIC_FRUIT = ItemRegistry.REGISTER.register("magic_fruit", () -> new Magic_fruit());
         public static final RegistryObject<Item> OBJ_MAGIC_SLIME = ItemRegistry.REGISTER.register("magic_slime", () -> new Magic_slime());
+        public static final RegistryObject<Item> OBJ_MAGIC_BROOM = ItemRegistry.REGISTER.register("magic_broom", () -> new Magic_broom());
 
 
         // blocks
